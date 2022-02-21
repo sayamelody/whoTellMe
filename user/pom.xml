@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>erueka</artifactId>
+    <artifactId>user</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -31,7 +31,6 @@
     </dependencies>
 
     <build>
-
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -48,7 +47,13 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <plugin>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok-maven-plugin</artifactId>
+                <version>1.16.20.0</version>
+            </plugin>
+
         </plugins>
     </build>
-
 </project>

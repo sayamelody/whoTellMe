@@ -11,6 +11,9 @@
     <modules>
         <module>core</module>
         <module>message</module>
+        <module>eureka</module>
+        <module>user</module>
+        <module>web</module>
     </modules>
 
     <properties>
